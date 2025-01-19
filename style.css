@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --main: #140f2d;
+  --text: #f49d37;
+}
+body {
+  height: 100vh;
+  width: 97vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#0c091d, #574c88);
+  color: var(--text);
+  font-family: "Baloo Da 2", serif;
+  box-sizing: border-box;
+  cursor: url("cursor.png"), auto;
+}
+.content {
+  padding-top: 40vh;
+  text-align: center;
+}
+em {
+  text-decoration: underline;
+}
+h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+p {
+  font-size: 25px;
+}
+a {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 25px;
+  margin-left: 2vw;
+}
+.contact {
+  padding-top: 30vh;
+}
+/* Typed.js */
+#typed {
+  background: var(--text);
+  color: var(--main);
+  padding: 5px;
+  border-radius: 5px;
+}
